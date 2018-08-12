@@ -1,17 +1,13 @@
-# Convolutional Neural Network
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Aug 11 15:34:54 2018
 
-# Installing Theano
-# pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git
-
-# Installing Tensorflow
-# pip install tensorflow
-
-# Installing Keras
-# pip install --upgrade keras
+@author: Fabio Roncato
+"""
 
 import os
 print(os.getcwd())
-path="C:/Users/Fabio Roncato/Documents/Deep_Learning_A_Z/Volume 1 - Supervised Deep Learning/Part 2 - Convolutional Neural Networks (CNN)/Convolutional_Neural_Networks"
+path="C:/Users/Fabio Roncato/Documents/project/example-keras_img_cnn"
 os.chdir(path)
 print(os.getcwd())
 
